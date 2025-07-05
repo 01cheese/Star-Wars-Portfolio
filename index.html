@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Star Wars intro - HTML5</title>
+        <link rel="shortcut icon" href="images/favicon.png">
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    <body>
+        <div id="viewport" class="center_container boxShadow">
+
+            <audio id="audioplayer" preload="auto"></audio>
+            <div class="full_container">
+                <p id="title">PORTFOLIO JOHN DOE</p>
+            </div>
+            <div class="full_container animation_container">
+                <canvas id="star_wars_intro" ></canvas>
+
+                <div id="rotate-x" class="perspectiveText_container">
+                    <div id="perspectiveText_base" >
+                        <div id="scrollingText_container"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/aniframer.js"></script>
+        <script src="js/logic.js"></script>
+    </body>
+</html>
