@@ -382,8 +382,8 @@ function init_logo() {
                 AF.ctx.strokeStyle = "rgba(" + yellowcolor + ", " + this.fade.toFixed(2) + ")";
                 AF.ctx.textAlign = "center";
 
-                AF.ctx.strokeText("10HUBS10LABS", AF.canvas.w / 2, this.y_star);
-                AF.ctx.strokeText("PRESENT", AF.canvas.w / 2, this.y_wars);
+                AF.ctx.strokeText("ANAKIN", AF.canvas.w / 2, this.y_star);
+                AF.ctx.strokeText("SKYWALKER", AF.canvas.w / 2, this.y_wars);
             }
         }
     };
