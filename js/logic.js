@@ -382,8 +382,8 @@ function init_logo() {
                 AF.ctx.strokeStyle = "rgba(" + yellowcolor + ", " + this.fade.toFixed(2) + ")";
                 AF.ctx.textAlign = "center";
 
-                AF.ctx.strokeText("JOHN DOE", AF.canvas.w / 2, this.y_star);
-                AF.ctx.strokeText("WEB DEV", AF.canvas.w / 2, this.y_wars);
+                AF.ctx.strokeText("10HUBS10LABS", AF.canvas.w / 2, this.y_star);
+                AF.ctx.strokeText("PRESENT", AF.canvas.w / 2, this.y_wars);
             }
         }
     };
@@ -392,7 +392,7 @@ function init_logo() {
 function init_intro_text() {
     introText = {
         y: perspectiveText_base.offsetHeight,
-        text: 'My name is John Doe and I\'m a web developer<br><br>' +
+        text: 'Portfolio that will definitely get you a job at NASA<br><br>' +
             'Featured projects:<br>' +
             '<a href="https://github.com/johndoe/galaxy-explorer" target="_blank" style="color:#00FFFF;">Galaxy Explorer</a> | ' +
             '<a href="https://johndoe.dev/weather-app" target="_blank" style="color:#00FFFF;">Weather Sphere</a> | ' +
